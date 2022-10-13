@@ -1,3 +1,4 @@
+
 const { Model, DataTypes, Sequelize } = require('sequelize');
 
 const { USER_TABLE } = require('./user.model')
@@ -30,6 +31,7 @@ const CustomerSchema =  {
     field: 'created_at',
     defaultValue: Sequelize.NOW,
   },
+
   userId: {
     field: 'user_id',
     allowNull: false,
