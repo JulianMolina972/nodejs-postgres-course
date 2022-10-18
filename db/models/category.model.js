@@ -42,7 +42,7 @@ class Category extends Model {
     return {
       sequelize,
       tableName: CATEGORY_TABLE,
-      modelName: 'category',
+      modelName: 'Category',
       timestamps: false
     }
   }
